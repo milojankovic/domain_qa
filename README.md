@@ -27,7 +27,6 @@ This repository delivers an end-to-end Retrieval-Augmented Generation (RAG) stac
 - `src/ingest.py` – main ingestion loop coordinating partitioning, chunking, embedding, and asset persistence.  
 - `src/datastore.py` – SQLite wrapper for assets/failures.  
 - `src/vectorstore.py` – Chroma wrapper using sentence-transformer embeddings.  
-- `src/interpret.py` – Gemini helpers for on-demand summaries (used elsewhere if desired).  
 - `src/search.py` – retrieval, re-ranking, and metadata filtering utilities.  
 - `src/serve.py` – FastAPI routes, Gemini generation, and asset attachment.  
 - `scripts/inspect_stores.py` – debugging utilities to inspect stored assets/vectors.
