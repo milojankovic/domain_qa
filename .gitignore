@@ -1,0 +1,23 @@
+# Python / uv environments
+.venv/
+*.pyc
+__pycache__/
+
+# Editor & tooling noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local environment / secrets
+.env
+
+# Data & runtime artifacts
+domaindata/
+storage/
+logs/
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
